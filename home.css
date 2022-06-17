@@ -1,0 +1,29 @@
+body {
+    background-color: #8f5fe8;
+    font-family: Arial, sans-serif;
+    font-size: 14pt;
+    background: url("/bb.jfif");
+    background-size: cover;
+}
+
+h1 {
+    text-align: center;
+    color: black;
+}
+
+a {
+    color: green;
+}
+
+h3 {
+    color: #000000;
+}
+
+h2 {
+    color: blue;
+}
+
+* {
+    text-align: center;
+    text-decoration: none;
+}

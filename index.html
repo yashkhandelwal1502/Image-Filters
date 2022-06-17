@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/css/index.css">
+    <script src="https://www.dukelearntoprogram.com/course1/common/js/image/SimpleImage.js">
+    </script>
+    <title>Document</title>
+
+</head>
+
+<body>
+    <script src="/js/index.js"></script>
+
+    <h1>Filters For Your Image!!!</h1>
+    <canvas id="can"></canvas>
+    <h3>Select your image</h3>
+    <p>
+        <input type="file" multiple="false" accept="image/*" id="image" onchange="upload()">
+    </p>
+    <hr>
+    <h3>Select Filter</h3>
+    <p>
+        <input type="button" value="Grayscale" onclick="doGray()" /> ||
+        <input type="button" value="Red" onclick="doRed()" /> ||
+        <input type="button" value="Rainbow" onclick="doRainbow()" /> ||
+        <input type="button" value="Blur" onclick="doBlur()" />
+        <hr>
+
+        <p>
+            <h3>Clear Section</h3>
+            <input type="button" value="Clear Filter" onclick="clr()" /> ||
+            <input type="button" value="Clear Canvas" onclick="clrcan()" />
+        </p>
+        <p></p>
+        <h3>Click For Green Screen func -> &nbsp;<a href="index2.html">Green Screen</a></h3>
+        <br>
+        <h3>Click For Home-> &nbsp; <a href="home.html">Home </a>
+        </h3>
+
+</body>
+
+</html>
